@@ -288,7 +288,7 @@ ax7.set_xlabel("Avg Discount (%)")
 ax7.set_ylabel("Total Revenue ($M)")
 ax7.yaxis.set_major_formatter(fmt_millions)
 
-plt.savefig("sales_dashboard.png", dpi=150,
+plt.savefig("Sales Dashboard/sales_dashboard.png", dpi=150,
             bbox_inches="tight", facecolor="white")
 print("\n✅ Dashboard saved → sales_dashboard.png")
 plt.show()
